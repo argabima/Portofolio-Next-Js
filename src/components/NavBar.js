@@ -39,10 +39,10 @@ const NavBar = () => {
 
         <nav className='flex'>
         <Link href='/' target={"_blank"}>
-        <Image src={profilePics} className='w-5 h-auto mx-3'/>
+        <Image src={profilePics} alt="Sosmed" className='w-5 h-auto mx-3'/>
         </Link>
         <Link href='/' target={"_blank"}>
-        <Image src={profilePics2} className='w-5 h-auto mx-3'/>
+        <Image src={profilePics2} alt="Sosmed" className='w-5 h-auto mx-3'/>
         </Link>
         
         </nav>

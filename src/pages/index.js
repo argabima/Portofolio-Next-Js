@@ -23,7 +23,7 @@ export default function Home() {
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/3'>
-              <Image src={profilePics} className='w-full h-auto'/>
+              <Image src={profilePics} alt="Foto" className='w-full h-auto'/>
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Undergraduate Information Technology Student at Telkom University" className='!text-3xl !text-left'/>
@@ -42,9 +42,9 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
 
               <div className='flex items-center self-center mt-5'>
                 <h1 className='font-medium'>Experience Work : </h1>
-                <Image src={profilePics2} className='w-20 h-auto mx-3'/>
-                <Image src={profilePics3} className='w-20 h-auto mx-3'/>
-                <Image src={profilePics4} className='w-20 h-auto mx-3'/>
+                <Image src={profilePics2} alt="Foto" className='w-20 h-auto mx-3'/>
+                <Image src={profilePics3} alt="Foto" className='w-20 h-auto mx-3'/>
+                <Image src={profilePics4} alt="Foto" className='w-20 h-auto mx-3'/>
               </div>
 
             </div>
