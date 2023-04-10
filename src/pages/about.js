@@ -4,13 +4,16 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
 import profilePics from "../../public/images/profile/aku.png"
+import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
+import Education from '@/components/Education'
 
 const about = () => {
   return (
     <>
     <Head>
         <title>Tentang Aku</title>
-      
+        <meta name='description' content='any-description'/>
     </Head>
     <main className='flex w-full flex-col items-center justify-center'>
         <Layout className='pt-16'>
@@ -30,9 +33,8 @@ every project I work on. I look forward to the opportunity to bring my skills an
                 </p>
             </div>
                 <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
-                    <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark'>
+                    <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark' />
 
-                    </div>
                     <Image src={profilePics} className="w-full h-auto rounded-2xl" />
                 </div>
                 <div className='col-span-2 flex flex-col items-end justify-between'>
@@ -50,6 +52,9 @@ every project I work on. I look forward to the opportunity to bring my skills an
 
         </div>
 
+        <Skills />
+        <Experience />
+        <Education />
         </Layout>
     </main>
     </>
