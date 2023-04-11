@@ -57,9 +57,9 @@ const NavBar = () => {
       >
 
       <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
-        <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
-        <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'} `}></span>
-        <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+        <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+        <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'} `}></span>
+        <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
 
       </button>
 
@@ -93,7 +93,7 @@ const NavBar = () => {
 
 
           className='min-w-[70vw] flex flex-col z-30 justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-        bg-dark/50 dark:bg-light/75 rounded-lg backdrop-blur-md py-32'>
+        bg-dark/50  rounded-lg backdrop-blur-md py-32'>
         <nav className='flex flex-col items-center justify-center mb-5'>
           <CustomMobileLink href='/' title="Home" className='mx-4' toogle={handleClick} />
           <CustomMobileLink href='/about' title="About" className='mx-4' toogle={handleClick} />
