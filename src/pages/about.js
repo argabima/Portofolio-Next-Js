@@ -21,7 +21,7 @@ const about = () => {
         <AnimatedText text="Anything about me" className='mb-16 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'/>
         <div className='grid w-full grid-cols-8 gap-16'>
             <div className='col-span-3 flex flex-col items-start justify-start 
-            lg:col-span-4 md:order-2 sm:col-span-8'>
+            lg:col-span-4 md:order-2 md:col-span-8'>
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'> Biography</h2>
                 <p className='font-medium'>Hi, I'm Arga Bimantara, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
 and user-centered digital experiences. I am always looking for 
@@ -35,7 +35,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
                 </p>
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light 
-            p-8 lg:col-span-4 md:order-1 sm:col-span-8'>
+            p-8 lg:col-span-4 md:order-1 md:col-span-8'>
                     <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark' />
 
                     <Image src={profilePics} className="w-full h-auto rounded-2xl" 
@@ -46,7 +46,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
                     />
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between 
-        lg:col-span-8 lg:flex-row lg:items-center md:order-3'>
+        lg:col-span-8 lg:flex-row lg:items-center md:order-3 lg:justify-center'>
 
                     <div className='flex flex-col items-end justify-center xl:items-center'>
                     <span className='inline-block text-4xl font-bold my-3 md:flex-row md:text-3xl sm:text-3xl xs:text-3xl'>
