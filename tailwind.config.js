@@ -18,6 +18,11 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
+        silver: "#BCBAA0",
+        silver2: "#8399a2",
+        silver3: "e4e7e4",
+        blue: "#7D88A1",
+        slidecolorsilver: "background: linear-gradient(90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);"
     },
     animation: {
       'spin-slow': 'spin 8s linear infinite',

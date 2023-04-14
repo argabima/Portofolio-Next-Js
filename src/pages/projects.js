@@ -10,6 +10,7 @@ import project2 from "../../public/images/projects/musika.png";
 import project3 from "../../public/images/projects/soluta.png";
 import project4 from "../../public/images/projects/Ramalan.png";
 import HireMe from '@/components/HireMe'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 const FeaturedProjects =({type, title, summary, img, link, github}) => {
@@ -88,7 +89,8 @@ const projects = () => {
         <title>Project Saya</title>
         <meta name='description' content='any-description'/>
     </Head>
-
+    
+    <TransitionEffect />
     <main className='w-full mb-16 flex flex-col items-center justify-center'>
         <Layout className='pt-16'>
         <AnimatedText text="Based on Real Projects" className='my-4 xl:!text-5xl lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'/>

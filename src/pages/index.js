@@ -8,6 +8,7 @@ import profilePics3 from "../../public/images/profile/Logo-BEE.png"
 import profilePics4 from "../../public/images/profile/hacktiv8.png"
 import Link from 'next/link'
 import HireMe from '../components/HireMe'
+import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       
       </Head>
+
+      <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen 2xl:'>
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
@@ -40,7 +43,7 @@ export default function Home() {
 Explore my latest projects, showcasing my expertise in React.js and web development.
               </p>
               <div className='flex items-center self-start my-2 lg:self-center'>
-                <Link href="/dummy.pdf" target={"_blank"}
+                <Link href="/CV - Arga Bimantara.pdf" target={"_blank"}
                 className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparant 
                 hover:border-dark md:p-2 md:px-4 md:text-base"

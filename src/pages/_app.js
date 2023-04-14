@@ -3,6 +3,8 @@ import {Quicksand} from "next/font/google"
 import Head from "next/head"
 import NavBar from "../components/NavBar"
 import Footer from '@/components/Footer'
+import { AnimatePresence } from 'framer-motion'
+import { useRouter } from 'next/router'
 
 const quicksand = Quicksand({
     subsets: ["latin"],
@@ -12,6 +14,8 @@ const quicksand = Quicksand({
 
 
 export default function App({ Component, pageProps }) {
+  
+  const router = useRouter();
   return (
    <>
    <Head>
@@ -22,7 +26,10 @@ export default function App({ Component, pageProps }) {
     </Head>
   <main className={`${quicksand.variable} font-quick bg-light w-full min-h-screen`}>
     <NavBar />
-    <Component {...pageProps} />
+    <AnimatePresence mode="wait">
+    <Component key={router.asPath} {...pageProps} />
+
+    </AnimatePresence>
     <Footer />
   </main>
   </>

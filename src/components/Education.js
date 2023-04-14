@@ -53,20 +53,10 @@ const Education = () => {
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
                 
-                type ="Bachelor Of Science In Computer Science" 
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)" 
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
-                />
-
-                <Details 
-                
-                type ="Bachelor Of Science In Computer Science" 
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)" 
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
+                type ="Bachelor Of Information Technology in Informatics" 
+                time="2019-2023"
+                place="Telkom University" 
+                info="The S1 Information Technology Study Program is a leading study program at Telkom University focusing on the realm of Internet of Things (IoT) and Cyber Security."
                 />
             </ul>
 

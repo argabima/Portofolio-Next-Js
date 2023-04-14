@@ -8,6 +8,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import HireMe from '@/components/HireMe'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const about = () => {
   return (
@@ -16,6 +17,7 @@ const about = () => {
         <title>Tentang Aku</title>
         <meta name='description' content='any-description'/>
     </Head>
+    <TransitionEffect />
     <main className='flex w-full flex-col items-center justify-center'>
         <Layout className='pt-16'>
         <AnimatedText text="Anything about me" className='mb-16 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'/>
@@ -23,7 +25,7 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start 
             lg:col-span-4 md:order-2 md:col-span-8'>
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'> Biography</h2>
-                <p className='font-medium'>Hi, I'm Arga Bimantara, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
+                <p className='font-medium'>Hi, I'm Arga Bimantara, a web developer and fullstack dev with a passion for creating beautiful, functional, 
 and user-centered digital experiences. I am always looking for 
 new and innovative ways to bring my clients' visions to life.</p>
                 <p className='my-4 font-medium'>I believe that design is about more than just making things look pretty – it's about solving problems and 

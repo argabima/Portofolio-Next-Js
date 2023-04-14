@@ -55,25 +55,26 @@ const Experience = () => {
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
                 
-                position ="Software Engineer" 
-                company="@Google"
-                time="2022-Present " 
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+                position ="Fullstack Dev" 
+                company="PT Baracipta Esa Engineering"
+                time="Aug - Dec 2022 " 
+                address="Sleman Yogyakarta"
+                work="Develop a company profile web project using the Codeigniter 4 framework,
+                 Create a database with tables and fields by design, up to the SQL module for accessing data,
+                 Testing and Deployment Web with perform UAT testing and create the test document"
 
                 />
 
                 <Details 
                 
-                position ="Software Engineer" 
-                company="@Google"
-                time="2022-Present " 
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+                position ="Web Developer Program" 
+                company="Hacktiv8"
+                time="Feb - July 2022" 
+                address="Bandung"
+                work="Understand the Basics & Fundamentals of being a website programmer,
+                Understand and be able to implement website interface development including Responsive View Interface,
+                 Understand 1 cycle of Website development,
+                 Can do online website deployment and development."
 
                 />
             </ul>
