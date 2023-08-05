@@ -4,7 +4,7 @@ import  {motion} from "framer-motion"
 const Skill = ({name, x, y}) => {
 
   return (
-    <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer
+    <motion.div className='flex items-center justify-center rounded-full font-semibold bg-blue text-light py-3 px-6 shadow-dark cursor-pointer
     absolute'
     whileHover={{scale:1.05}}
 
@@ -50,15 +50,17 @@ const Skills = () => {
         > Pemrograman
         </motion.div>
 
-        <Skill  name="Front-End" x="0vw" y="-20vw" />
+        <Skill  name="Framework" x="0vw" y="-20vw" />
         <Skillup  name="Bootstrap 5" x="10vw" y="-23vw" />
         <Skillup  name="Next JS" x="-10vw" y="-23vw" />
         <Skillup  name="Codeigniter 4" x="-14vw" y="-15vw" />
+        <Skillup  name="Gin Go" x="-24vw" y="-25vw" />
 
         <Skill name="Back-End" x="-20vw" y="0vw" />
-        <Skillup  name="Oracle My SQL" x="-27vw" y="7vw" />
+        <Skillup  name="Database MySQL" x="-27vw" y="7vw" />
         <Skillup  name="Java" x="-27vw" y="-7vw" />
         <Skillup  name="PHP" x="-30vw" y="-1vw" />
+        <Skillup  name="Go" x="-40vw" y="-5vw" />
 
         <Skill name="IoT" x="23vw" y="0vw" />
         <Skillup  name="Arduino IDE" x="29vw" y="6vw" />

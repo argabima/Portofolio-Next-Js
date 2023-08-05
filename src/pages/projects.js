@@ -9,11 +9,12 @@ import project1 from "../../public/images/projects/swev1.png";
 import project2 from "../../public/images/projects/musika.png";
 import project3 from "../../public/images/projects/soluta.png";
 import project4 from "../../public/images/projects/Ramalan.png";
+import project5 from "../../public/images/projects/bri project.png";
 import HireMe from '@/components/HireMe'
 import TransitionEffect from '@/components/TransitionEffect'
 
 
-const FeaturedProjects =({type, title, summary, img, link, github}) => {
+const FeaturedProjects =({type, title, summary, img, link, github,github1}) => {
     return (
         <articles className='w-full flex items-center justify-between rounded-3xl relative rounded-br-2xl
          border border-solid border-dark bg-light shadow-2xl p-12 
@@ -43,6 +44,7 @@ const FeaturedProjects =({type, title, summary, img, link, github}) => {
         <div className='mt-2 flex items-center'>
 
         <Link href={github} target="_blank" className='w-[10%]'> <GithubIcon /></Link>
+        <Link href={github1} target="_blank" className='w-[10%]'> <GithubIcon /></Link>
         <Link href={link} target="_blank" className='ml-4 rounded-lg bg-black text-light hover:bg-light hover:text-dark hover:border border-solid border-dark py-2 px-6 font-semibold
         sm:px-3 sm:text-base'> Visit Project</Link>
         </div>
@@ -98,16 +100,27 @@ const projects = () => {
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-24 xs:gap-x-0'>
             <div className='col-span-12'>
                 <FeaturedProjects 
+                title="Dashboard Data Transaction"
+                img={project5}
+                summary="Project Team DBD Ceria Develop a Dashboard Data Transaction with Go and React JS"
+                link="https://ddbceria-finpro.vercel.app/"
+                github="https://github.com/vincenntod/finpro"
+                github1="https://github.com/IchsanR/Final-Project-FE-DDB-Ceria"
+                type="Internship Projects"
+                
+                />
+            </div>
+            <div className='col-span-6'>
+                
+            <Projects 
                 title="Swevel Company Profile and Learning Platform Project"
                 img={project1}
-                summary="Swevel adalah sebuah Web Company Profile dan Learning Platfrom yang berisi profile perusahaan dan 
-                produk layanan berupa jasa kursus dan latihan pembelajaran yang menyediakan
-                banyak materi yang bermanfaat."
                 link="http://swevel.wotle.org/"
                 github="https://github.com/Sendibayu2210/swevel"
                 type="Magang Projects"
                 
                 />
+
             </div>
             <div className='col-span-6'>
                 
@@ -161,18 +174,7 @@ const projects = () => {
                 />
 
             </div>
-            <div className='col-span-6'>
-                
-            <Projects 
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
-                type="Featured Projects"
-                
-                />
-
-            </div>
+            
         </div>
 
         </Layout>

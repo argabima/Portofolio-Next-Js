@@ -55,6 +55,18 @@ const Experience = () => {
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details 
                 
+                position ="Backend Dev" 
+                company="PT Bank Rakyat Indonesia"
+                time="May - July 2023 " 
+                address="Jakarta"
+                work="Developing a web dashboard project for monitoring payment transaction data with Golang  
+                Features: manage user accounts, get data transactions, and export transactions in scope project 
+                Ceria application."
+
+                />
+
+                <Details 
+                
                 position ="Fullstack Dev" 
                 company="PT Baracipta Esa Engineering"
                 time="Aug - Dec 2022 " 
