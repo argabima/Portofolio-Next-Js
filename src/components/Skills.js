@@ -54,13 +54,13 @@ const Skills = () => {
         <Skillup  name="Bootstrap 5" x="10vw" y="-23vw" />
         <Skillup  name="Next JS" x="-10vw" y="-23vw" />
         <Skillup  name="Codeigniter 4" x="-14vw" y="-15vw" />
-        <Skillup  name="Gin Go" x="-24vw" y="-25vw" />
+        <Skillup  name="Gin Go" x="-24vw" y="-20vw" />
 
         <Skill name="Back-End" x="-20vw" y="0vw" />
         <Skillup  name="Database MySQL" x="-27vw" y="7vw" />
-        <Skillup  name="Java" x="-27vw" y="-7vw" />
+        <Skillup  name="Java" x="-28vw" y="-7vw" />
         <Skillup  name="PHP" x="-30vw" y="-1vw" />
-        <Skillup  name="Go" x="-40vw" y="-5vw" />
+        <Skillup  name="Go" x="-37vw" y="-5vw" />
 
         <Skill name="IoT" x="23vw" y="0vw" />
         <Skillup  name="Arduino IDE" x="29vw" y="6vw" />

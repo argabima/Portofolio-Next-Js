@@ -44,6 +44,7 @@ const CustomMobileLink = ({href, title, className="", toogle}) => {
 
 const NavBar = () => {
 
+  const [mode, setMode] = useThemeSwitcher();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () =>{
@@ -81,6 +82,16 @@ const NavBar = () => {
         <Link href='/' target={"_blank"}>
         <Image src={profilePics2} alt="Sosmed" className='w-5 h-auto mx-3'/>
         </Link>
+        <button
+          onClick={() => setMode(mode === "light" ? "dark" : "light")}
+        >
+          {
+            mode === "dark" ?
+            <SunIcon className={"fill-dark"} />
+           : <MoonIcon className={"fill-dark"} />
+          }
+
+        </button>
         
         </nav>
         </div>
