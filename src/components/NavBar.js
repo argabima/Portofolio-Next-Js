@@ -44,7 +44,6 @@ const CustomMobileLink = ({href, title, className="", toogle}) => {
 
 const NavBar = () => {
 
-  const [mode, setMode] = useThemeSwitcher();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () =>{
