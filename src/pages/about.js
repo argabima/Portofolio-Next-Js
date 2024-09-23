@@ -3,7 +3,7 @@ import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
-import profilePics from "../../public/images/profile/aku.png"
+import profilePics from "../../public/images/profile/poto_about.png"
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
