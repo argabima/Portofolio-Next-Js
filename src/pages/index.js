@@ -3,9 +3,9 @@ import Layout from '../components/Layout'
 import AnimatedText from '../components/AnimatedText'
 import Image from 'next/image'
 import profilePics from "../../public/images/profile/bima.jpeg"
-import profilePics2 from "../../public/images/profile/bri.png"
-import profilePics3 from "../../public/images/profile/Logo-BEE.png"
-import profilePics4 from "../../public/images/profile/hacktiv8.png"
+import profilePics2 from "../../public/images/profile/sppi.png"
+import profilePics3 from "../../public/images/profile/unhan.png"
+import profilePics4 from "../../public/images/profile/bgn.png"
 import Link from 'next/link'
 import HireMe from '../components/HireMe'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -35,12 +35,11 @@ export default function Home() {
               />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="Undergraduate Information Technology Student at Telkom University" className='!text-3xl !text-left
+              <AnimatedText text="TNI Komcad SPPI Batch 3 and IT Dev in Telkom" className='!text-3xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl'
               />
               <p className='my-4 text-base font-medium md:text-md sm:text-sm'>
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects, showcasing my expertise in React.js and web development.
+              Letnan Dua Komponen Cadangan SPPI Batch 3 bertugas sebagai Kepala pengelola dapur program Makan Bergizi Gratis SPPG BGN dan Freshgraduate Mahasiswa Teknologi Informasi Lulusan Universitas Telkom.
               </p>
               <div className='flex items-center self-start my-2 lg:self-center'>
                 <Link href="/CV - Arga Bimantara1.pdf" target={"_blank"}
