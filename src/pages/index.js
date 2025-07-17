@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import AnimatedText from '../components/AnimatedText'
 import Image from 'next/image'
-import profilePics from "../../public/images/profile/aku.png"
+import profilePics from "../../public/images/profile/bima.jpeg"
 import profilePics2 from "../../public/images/profile/bri.png"
 import profilePics3 from "../../public/images/profile/Logo-BEE.png"
 import profilePics4 from "../../public/images/profile/hacktiv8.png"
